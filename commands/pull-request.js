@@ -21,7 +21,7 @@ export const getFormattedPullRequestInfo = async (pullRequestNumber) => {
 			}
 		})
 		const data = await response.json();
-		console.log(data);
+
 		const res = {
 			title: data.title,
 			url: data.html_url,
