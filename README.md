@@ -1,4 +1,4 @@
-#Github to Slack
+# Github to Slack
 
 Transforms PR data from github to a formatted message for slack group within:
 - cli
@@ -7,7 +7,7 @@ Transforms PR data from github to a formatted message for slack group within:
 /pr 8080 => <https://github.com/Sixt/com.sixt.web.public/pull/8080|[WET-2003] make dealslider item box clickable> | +19 / -10 | @mysixt, @wet
 ```
 
-###Start working
+### Start working
 
 Create an .env file
 ```
@@ -20,7 +20,7 @@ Create a github token and add it to .env
 GITHUB_SECRET=[YOUR-GITHUB-SECRET]
 ```
 
-###Usage:
+### Usage:
 - cli
 ```bash
 node cli.js 8080
